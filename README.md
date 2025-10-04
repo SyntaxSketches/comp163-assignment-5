@@ -18,6 +18,6 @@ AI Usage:
 I used ChatGPT for help with understanding the assignment, and syntax errrors (aka the testcases on zybooks)
 
 Git Commits:
-1. Challenge 1: Collatz sequence - while loop for unknown iterations
-2. Challenge 2: Prime checker - for loop for known range
-3. Challenge 3: Multiplication grid - nested loops for 2D data
+1. Challenge 1: Collatz sequence
+2. Challenge 2: Prime checker
+3. Challenge 3: Multiplication grid
