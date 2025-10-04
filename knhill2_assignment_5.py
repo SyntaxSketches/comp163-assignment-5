@@ -14,3 +14,21 @@ else:
 print(current_number)
 print("Steps:", step_count)
 
+#challenge 2
+
+if number <= 1:
+    print(f"{number} is not prime (not greater than 1).")
+else:
+    print(f"Testing divisors from 2 to {number - 1}...")
+is_prime = True
+for divisor in range(2, number):
+        if number % divisor == 0:
+            print(f"{number} is not prime (divisible by {divisor}).")
+            is_prime = False
+            break  
+
+if is_prime:
+        print(f"{number} is prime!")
+
+
+
